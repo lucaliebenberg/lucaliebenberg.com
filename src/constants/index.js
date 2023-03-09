@@ -44,16 +44,16 @@ export const navLinks = [
 
 const services = [
   {
+    title: "UX/UI Designer",
+    icon: backend,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
   {
     title: "Blockchain Developer",
     icon: mobile,
-  },
-  {
-    title: "UX/UI Designer",
-    icon: backend,
   },
   {
     title: "Content Creator",
@@ -175,23 +175,23 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Having design and development knowledge, Luca bridges the gap between designers and developers with ease. A pleasure to work with.",
+    name: "Shaun Mbolompo",
+    designation: "Computer Science Student",
+    company: "University of Cape Town",
+    image: "https://i.ibb.co/0Dwf3Zj/shaun.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' needing a digital prescence like Luca does.",
+    name: "Joshua Van Breda",
+    designation: "Game Developer",
+    company: "Mezmerize Studios",
+    image: "https://i.ibb.co/yg80p3J/self.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Luca optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
