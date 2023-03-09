@@ -218,7 +218,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lucaliebenberg/moses-wesbite",
   },
   {
     name: "Wedding Website",
@@ -239,7 +239,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lucaliebenberg/wedding-website",
   },
   {
     name: "Catering Webiste",
@@ -260,7 +260,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
   },
   {
     name: "Crypto eLearning",
@@ -281,7 +281,8 @@ const projects = [
       },
     ],
     image: project9,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
   },
 ];
 
