@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   project9,
+  project10,
 } from "../assets";
 
 export const navLinks = [
@@ -283,6 +284,27 @@ const projects = [
     image: project9,
     source_code_link:
       "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
+  },
+  {
+    name: "Travel Website",
+    description:
+      "Web-based application that allows for the user to view travel desinations and destination information",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project10,
+    source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
   },
 ];
 
