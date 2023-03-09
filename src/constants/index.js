@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  project9,
 } from "../assets";
 
 export const navLinks = [
@@ -92,10 +93,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -199,20 +200,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that allows for the client to showcase their portfolio and brand",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -220,20 +221,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Wedding Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based application that allows for the client to share their wedding invitation with those who were invited",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "sass",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -241,24 +242,45 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Catering Webiste",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based application that allows users to browse the catering list and the relevant price list. This was for a catering company that wanted to have a digital prescene.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Crypto eLearning",
+    description:
+      "A Design System project for a eLearning Crypto app concept, with a modular Design System that displays the brand and concepts",
+    tags: [
+      {
+        name: "ux design",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ui design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project9,
     source_code_link: "https://github.com/",
   },
 ];
