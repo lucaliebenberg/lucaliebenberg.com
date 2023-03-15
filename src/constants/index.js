@@ -165,7 +165,7 @@ const experiences = [
     date: "Dec 2022 - Present",
     points: [
       "Ideating and creating dashboard designs for concept design.",
-      "Collaborating with cross-functional teams including contributors, management, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including contributors, management, and other developers to create MVP product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in design reviews and receive constructive feedback to further improve the product",
     ],
@@ -177,7 +177,7 @@ const testimonials = [
     testimonial:
       "Having design and development knowledge, Luca bridges the gap between designers and developers with ease. A pleasure to work with.",
     name: "Shaun Mbolompo",
-    designation: "Computer Science Student",
+    designation: "Computer Science & Business Computing Student",
     company: "University of Cape Town",
     image: "https://i.ibb.co/0Dwf3Zj/shaun.jpg",
   },
@@ -191,11 +191,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Luca optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Having a designer who is able to build the interfaces they design, makes collaboration easier, and helps focus on what is possible when it comes to development.",
+    name: "Lionel Raseemla",
+    designation: "Computer Science & Applied Maths Student",
+    company: "Nelson Mandela University",
+    image: "https://i.ibb.co/mG3F5cF/lionel-avatar.jpg",
   },
 ];
 
