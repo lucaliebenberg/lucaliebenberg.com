@@ -118,7 +118,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Developer (Internship)",
     company_name: "Code Capsules",
     icon: starbucks,
     iconBg: "#383E56",
@@ -127,25 +127,23 @@ const experiences = [
       "Developing a web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Deploying the web application with hosting.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "UX/UI Designer",
+    title: "UX/UI Designer (Internship)",
     company_name: "Polymorph Systems",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Jan 2023",
     points: [
       "Design the concept for the internal dashboard, using Figma .",
-      "Collaborating with a cross-functional team including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product.",
       "Implementing the features needed to solve the company's problem.",
-      "Identify the right type of technology and the steps to developing and executing an effective blockchain project ",
       "Participating in class reviews and providing constructive feedback to other team members.",
     ],
   },
   {
-    title: "Blockchain Developer",
+    title: "Blockchain Developer (Training Program)",
     company_name: "Brainnest",
     icon: shopify,
     iconBg: "#383E56",
@@ -153,21 +151,20 @@ const experiences = [
     points: [
       " Identify the core concepts of Blockchain and get technical background on some of the biggest projects like HyperLedger, Factom and Ripple",
       "Created & Deployed solidity smart contract and interacted with them on the frontend ",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in homework reviews and providing constructive feedback to other classmates throughout the program.",
     ],
   },
   {
-    title: "UX/UI Designer",
+    title: "UX/UI Designer (Contract)",
     company_name: "Tilata",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Present",
     points: [
       "Ideating and creating dashboard designs for concept design.",
-      "Collaborating with cross-functional teams including contributors, management, and other developers to create MVP product.",
+      "Collaborating with cross-functional team including contributors, management, and other community members to create the first MVP product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in design reviews and receive constructive feedback to further improve the product",
+      "Participating in design reviews and receive constructive feedback to further improve the MVP",
     ],
   },
 ];
