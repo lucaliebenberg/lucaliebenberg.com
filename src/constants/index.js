@@ -183,7 +183,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' needing a digital prescence like Luca does.",
+      "A web developer who truly cares about their clients' needing a digital prescence like Luca does.",
     name: "Joshua Van Breda",
     designation: "Game Developer",
     company: "Mezmerize Studios",
