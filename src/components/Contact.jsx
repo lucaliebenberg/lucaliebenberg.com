@@ -27,25 +27,19 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Luca Liebenberg",
-          from_email: form.email,
-          to_email: "liebenbergluca@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      .sendForm(
+        "service_m3d6aih",
+        "template_qra90cs",
+        formRef.current,
+        "1MTBPSM2I49c_z_oI"
       )
       .then(
-        () => {
+        (result) => {
+          console.log(result.text);
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
 
@@ -57,7 +51,7 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.log(error.text);
 
           alert("Ahh, something went wrong. Please try again.");
         }
@@ -77,7 +71,7 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          onSubmit={sendEmail}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
@@ -116,9 +110,11 @@ const Contact = () => {
 
           <button
             type="submit"
+            value="Send"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
-            {loading ? "Sending..." : "Send"}
+            {/* {loading ? "Sending..." : "Send"} */}
+            Send
           </button>
         </form>
       </motion.div>

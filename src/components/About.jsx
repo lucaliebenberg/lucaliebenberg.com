@@ -42,7 +42,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt0-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
+        className="mt0-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am an interaction designer and developer, who is enthusiastic about
         the blockchain ecosystem and software development. I work with Front-End
