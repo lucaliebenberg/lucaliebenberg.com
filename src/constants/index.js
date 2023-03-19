@@ -25,6 +25,7 @@ import {
   threejs,
   project9,
   project10,
+  project11,
 } from "../assets";
 
 export const navLinks = [
@@ -302,6 +303,27 @@ const projects = [
     ],
     image: project10,
     source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
+  },
+  {
+    name: "SaaS Landing Page",
+    description:
+      "A Single Page Application that was designed and developed for a fictitious SaaS company",
+    tags: [
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: project11,
+    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
   },
 ];
 
