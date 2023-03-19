@@ -136,10 +136,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Jan 2023",
     points: [
-      "Design the concept for the internal dashboard, using Figma .",
+      "Design the concept for the internal dashboard, using Figma.",
       "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product.",
-      "Implementing the features needed to solve the company's problem.",
-      "Participating in class reviews and providing constructive feedback to other team members.",
+      "Contributing to the implementation of the features needed to solve the company's problem.",
+      "Participating in project reviews and providing constructive feedback to other team members.",
     ],
   },
   {
