@@ -198,27 +198,27 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Portfolio Website",
-    description:
-      "Web-based application that allows for the client to showcase their portfolio and brand",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/lucaliebenberg/moses-wesbite",
-  },
+  // {
+  //   name: "Portfolio Website",
+  //   description:
+  //     "Web-based application that allows for the client to showcase their portfolio and brand",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/lucaliebenberg/moses-wesbite",
+  // },
   {
     name: "Wedding Website",
     description:
@@ -284,27 +284,6 @@ const projects = [
       "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
   },
   {
-    name: "Travel Website",
-    description:
-      "Web-based application that allows for the user to view travel desinations and destination information",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project10,
-    source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
-  },
-  {
     name: "SaaS Landing Page",
     description:
       "A Single Page Application that was designed and developed for a fictitious SaaS company",
@@ -324,6 +303,27 @@ const projects = [
     ],
     image: project11,
     source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
+  },
+  {
+    name: "Travel Website",
+    description:
+      "Web-based application that allows for the user to view travel desinations and destination information",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project10,
+    source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
   },
 ];
 
