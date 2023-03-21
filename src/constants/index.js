@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  webIcon,
   javascript,
   typescript,
   html,
@@ -239,6 +240,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/lucaliebenberg/wedding-website",
+    live_link: "https://www.google.com",
   },
   {
     name: "Catering Webiste",
@@ -260,6 +262,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
+    live_link: "https://www.google.com",
   },
   {
     name: "Crypto eLearning",
@@ -282,6 +285,7 @@ const projects = [
     image: project9,
     source_code_link:
       "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
+    live_link: "https://www.google.com",
   },
   {
     name: "SaaS Landing Page",
@@ -303,28 +307,29 @@ const projects = [
     ],
     image: project11,
     source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
+    live_link: "https://www.google.com",
   },
-  {
-    name: "Travel Website",
-    description:
-      "Web-based application that allows for the user to view travel desinations and destination information",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project10,
-    source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
-  },
+  // {
+  //   name: "Travel Website",
+  //   description:
+  //     "Web-based application that allows for the user to view travel desinations and destination information",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project10,
+  //   source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
