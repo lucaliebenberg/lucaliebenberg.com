@@ -221,6 +221,28 @@ const projects = [
   //   source_code_link: "https://github.com/lucaliebenberg/moses-wesbite",
   // },
   {
+    name: "SaaS Landing Page",
+    description:
+      "A Single Page Application that was designed and developed for a fictitious SaaS company",
+    tags: [
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: project11,
+    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
+    live_link: "https://onesheetsolutions.netlify.app/",
+  },
+  {
     name: "Wedding Website",
     description:
       "Web-based application that allows for the client to share their wedding invitation with those who were invited",
@@ -240,7 +262,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/lucaliebenberg/wedding-website",
-    live_link: "https://www.google.com",
+    live_link: "https://www.sophia-and-evans.com/",
   },
   {
     name: "Catering Webiste",
@@ -262,7 +284,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
-    live_link: "https://www.google.com",
+    live_link: "https://www.bossboysplatters.com/",
   },
   {
     name: "Crypto eLearning",
@@ -285,30 +307,10 @@ const projects = [
     image: project9,
     source_code_link:
       "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
-    live_link: "https://www.google.com",
+    live_link:
+      "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
   },
-  {
-    name: "SaaS Landing Page",
-    description:
-      "A Single Page Application that was designed and developed for a fictitious SaaS company",
-    tags: [
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "framer motion",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: project11,
-    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
-    live_link: "https://www.google.com",
-  },
+
   // {
   //   name: "Travel Website",
   //   description:
