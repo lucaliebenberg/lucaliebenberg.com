@@ -19,6 +19,7 @@ import {
   meta,
   starbucks,
   tesla,
+  web3ninja,
   shopify,
   carrent,
   jobit,
@@ -138,7 +139,7 @@ const experiences = [
     company_name: "Polymorph Systems",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Jan 2023",
+    date: "December 2022 - Jan 2023",
     points: [
       "Design the concept for the internal dashboard, using Figma.",
       "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product.",
@@ -151,7 +152,7 @@ const experiences = [
     company_name: "Brainnest",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2023 - Feb 2023",
+    date: "January 2023 - Feb 2023",
     points: [
       " Identify the core concepts of Blockchain and get technical background on some of the biggest projects like HyperLedger, Factom and Ripple",
       "Created & Deployed solidity smart contract and interacted with them on the frontend ",
@@ -163,12 +164,25 @@ const experiences = [
     company_name: "Tilata",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Present",
+    date: "December 2022 - Present",
     points: [
       "Ideating and creating dashboard designs for concept design.",
       "Collaborating with cross-functional team including contributors, management, and other community members to create the first MVP product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in design reviews and receive constructive feedback to further improve the MVP",
+    ],
+  },
+  {
+    title: "Frontend Developer (Internship)",
+    company_name: "The Web3 Ninja",
+    icon: web3ninja,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - Present",
+    points: [
+      "Converting Figma design systems to React components using Storybook",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and receive constructive feedback to further improve the components",
+      "Collaborating with another intern developer to build and test the components",
     ],
   },
 ];

@@ -44,12 +44,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt0-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an interaction designer and developer, who is enthusiastic about
-        the blockchain ecosystem and software development. I work with Front-End
-        technologies, such as HTML, CSS and JavaScript, and I am constantly
-        learning frontend and blockchain technologies to understand secure smart
-        contracts and grow as a UX Developer and Fullstack Javascript/Blockchain
-        developer.
+        I am a motivated and disciplined student, who is currently studying
+        Interaction Design & Front-End Development at the Cape Town Creative
+        Academy. I am in my third and final year, looking for internships with
+        UX/UI, Software and Blockchain companies until my graduation, hoping to
+        learn as much as I can and obtain industry work experience.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

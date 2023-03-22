@@ -28,6 +28,7 @@ import meta from "./company/tilata.png";
 import shopify from "./company/brainnest.png";
 import starbucks from "./company/codecapsules.png";
 import tesla from "./company/polymorph.jpeg";
+import web3ninja from "./company/web3-ninja.png";
 
 import carrent from "./project-1.png";
 import jobit from "./project-5.png";
@@ -64,6 +65,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  web3ninja,
   carrent,
   jobit,
   tripguide,
