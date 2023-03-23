@@ -212,6 +212,14 @@ const testimonials = [
     company: "Nelson Mandela University",
     image: "https://i.ibb.co/mG3F5cF/lionel-avatar.jpg",
   },
+  // {
+  //   testimonial:
+  //     "Having a designer who is able to build the interfaces they design, makes collaboration easier, and helps focus on what is possible when it comes to development.",
+  //   name: "Moses Chisale",
+  //   designation: "Animator & Photographer",
+  //   company: "Cape Town Creative Academy",
+  //   image: "https://i.ibb.co/mG3F5cF/lionel-avatar.jpg",
+  // },
 ];
 
 const projects = [
