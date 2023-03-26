@@ -179,7 +179,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2023 - Present",
     points: [
-      "Converting Figma design systems to React components using Storybook",
+      "Converting Figma design systems to React TypeScript components using Storybook",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and receive constructive feedback to further improve the components",
       "Collaborating with another intern developer to build and test the components",
@@ -313,7 +313,7 @@ const projects = [
   {
     name: "Crypto eLearning",
     description:
-      "A Design System project for a eLearning Crypto app concept, with a modular Design System that displays the brand and concepts",
+      "A Design System project for a eLearning Crypto app concept, with a modular Design System that displays the brand and product concepts",
     tags: [
       {
         name: "ux design",
