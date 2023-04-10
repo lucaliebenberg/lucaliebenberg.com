@@ -14,7 +14,7 @@ import {
   nodejs,
   mongodb,
   git,
-  github,
+  githubDark,
   figma,
   docker,
   meta,
@@ -109,12 +109,12 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "github",
+    icon: githubDark,
   },
   {
-    name: "github",
-    icon: github,
+    name: "git",
+    icon: git,
   },
   // {
   //   name: "docker",
