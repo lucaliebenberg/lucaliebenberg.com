@@ -250,6 +250,41 @@ const projects = [
   //   source_code_link: "https://github.com/lucaliebenberg/moses-wesbite",
   // },
   {
+    name: "Fullstack NFT Minting DApp",
+    description:
+      "Web-based Fullstack NFT Mintng Dapp that allows you to connect your smart contract to your React dApp project by building an NFT Minter using Metamask and Web",
+    tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "alchemy",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ethers.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "web3.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project12,
+    source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dapp",
+    live_link:
+      "https://goerli.etherscan.io/tx/0x8d41d174d4e5335f0a31129331254f11349d66e32b772e857ce7c0d24a22e36e",
+  },
+  {
     name: "SaaS Landing Page",
     description:
       "A Single Page Application that was designed and developed for a fictitious SaaS company",
@@ -315,66 +350,30 @@ const projects = [
     source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
     live_link: "https://www.bossboysplatters.com/",
   },
-  {
-    name: "Crypto eLearning",
-    description:
-      "A Design System project for a eLearning Crypto app concept, with a modular Design System that displays the brand and product concepts",
-    tags: [
-      {
-        name: "ux design",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ui design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project9,
-    source_code_link:
-      "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
-    live_link:
-      "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
-  },
-
-  {
-    name: "Fullstack NFT Minting DApp",
-    description:
-      "Web-based Fullstack NFT Mintng Dapp that allows you to connect your smart contract to your React dApp project by building an NFT Minter using Metamask and Web",
-    tags: [
-      {
-        name: "solidity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hardhat",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "alchemy",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ethers.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "web3.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project12,
-    source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dapp",
-    live_link:
-      "https://goerli.etherscan.io/tx/0x8d41d174d4e5335f0a31129331254f11349d66e32b772e857ce7c0d24a22e36e",
-  },
+  // {
+  //   name: "Crypto eLearning",
+  //   description:
+  //     "A Design System project for a eLearning Crypto app concept, with a modular Design System that displays the brand and product concepts",
+  //   tags: [
+  //     {
+  //       name: "ux design",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "ui design",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "figma",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project9,
+  //   source_code_link:
+  //     "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
+  //   live_link:
+  //     "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
