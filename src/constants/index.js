@@ -28,6 +28,7 @@ import {
   project9,
   project10,
   project11,
+  project12,
 } from "../assets";
 
 export const navLinks = [
@@ -335,27 +336,41 @@ const projects = [
       "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
   },
 
-  // {
-  //   name: "Travel Website",
-  //   description:
-  //     "Web-based application that allows for the user to view travel desinations and destination information",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project10,
-  //   source_code_link: "https://github.com/lucaliebenberg/travel-wesbite",
-  // },
+  {
+    name: "Fullstack NFT Minting DApp",
+    description:
+      "Web-based Fullstack NFT Mintng Dapp that allows you to connect your smart contract to your React dApp project by building an NFT Minter using Metamask and Web",
+    tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "alchemy",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ethers.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "web3.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project12,
+    source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dappe",
+    live_link:
+      "https://goerli.etherscan.io/tx/0x8d41d174d4e5335f0a31129331254f11349d66e32b772e857ce7c0d24a22e36e",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
