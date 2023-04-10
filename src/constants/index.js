@@ -14,6 +14,7 @@ import {
   nodejs,
   mongodb,
   git,
+  github,
   figma,
   docker,
   meta,
@@ -87,12 +88,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "Redux Toolkit",
@@ -103,22 +104,25 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
   {
     name: "git",
     icon: git,
   },
-
+  {
+    name: "github",
+    icon: github,
+  },
   // {
   //   name: "docker",
   //   icon: docker,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
   // },
 ];
 
@@ -130,9 +134,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2022 - October 2022",
     points: [
-      "Developing a web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Deploying the web application with hosting.",
+      "Developing a web application using React.js and other related technologies",
+      "Implementing responsive design and ensuring cross-browser compatibility",
+      "Deploying the web application with hosting",
     ],
   },
   {
@@ -142,10 +146,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "December 2022 - Jan 2023",
     points: [
-      "Design the concept for the internal dashboard, using Figma.",
-      "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product.",
-      "Contributing to the implementation of the features needed to solve the company's problem.",
-      "Participating in project reviews and providing constructive feedback to other team members.",
+      "Designed the concept for the internal dashboard",
+      "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product",
+      "Contributing to the implementation of the features needed to solve the company's problem",
+      "Participating in project reviews and providing constructive feedback to other team members",
     ],
   },
   {
@@ -156,20 +160,20 @@ const experiences = [
     date: "January 2023 - Feb 2023",
     points: [
       " Identify the core concepts of Blockchain and get technical background on some of the biggest projects like HyperLedger, Factom and Ripple",
-      "Created & Deployed solidity smart contract and interacted with them on the frontend ",
-      "Participating in homework reviews and providing constructive feedback to other classmates throughout the program.",
+      "Created & Deployed solidity smart contract and interacted with them on the frontend",
+      "Participating in homework reviews and providing constructive feedback to other classmates throughout the program",
     ],
   },
   {
-    title: "UX/UI Designer (Contract)",
+    title: "UX/UI Designer (Part Time)",
     company_name: "Tilata",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "December 2022 - Present",
     points: [
-      "Ideating and creating dashboard designs for concept design.",
-      "Collaborating with cross-functional team including contributors, management, and other community members to create the first MVP product.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Ideating and creating dashboard designs for concept design",
+      "Collaborating with cross-functional team including contributors, management, and other community members to create the first MVP product",
+      "Implementing responsive design and ensuring cross-browser compatibility",
       "Participating in design reviews and receive constructive feedback to further improve the MVP",
     ],
   },
@@ -181,7 +185,7 @@ const experiences = [
     date: "March 2023 - Present",
     points: [
       "Converting Figma design systems to React TypeScript components using Storybook",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and ensuring cross-browser compatibility",
       "Participating in code reviews and receive constructive feedback to further improve the components",
       "Collaborating with another intern developer to build and test the components",
     ],
