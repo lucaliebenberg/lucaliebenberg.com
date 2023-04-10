@@ -290,6 +290,10 @@ const projects = [
       "A Single Page Application that was designed and developed for a fictitious SaaS company",
     tags: [
       {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
         name: "tailwind",
         color: "green-text-gradient",
       },
@@ -299,7 +303,7 @@ const projects = [
       },
       {
         name: "framer motion",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: project11,
