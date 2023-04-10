@@ -371,7 +371,7 @@ const projects = [
       },
     ],
     image: project12,
-    source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dappe",
+    source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dapp",
     live_link:
       "https://goerli.etherscan.io/tx/0x8d41d174d4e5335f0a31129331254f11349d66e32b772e857ce7c0d24a22e36e",
   },
