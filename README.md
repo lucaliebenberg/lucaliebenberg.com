@@ -34,9 +34,9 @@ Live demo [here](https://www.lucaliebenberg.com).
 
 ## Setup
 
-type npm install
+type `npm install`
 
-type npm run dev to run the project
+type `npm run dev` to run the project
 
 
 ## Project Status
