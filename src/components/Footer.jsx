@@ -17,11 +17,7 @@ const Footer = () => {
           If you’re looking for a kick-ass digital ninja, I'm here to help!
         </p>
         <button className="w-[134px] h-[40px] rounded-[5px] bg-white text-tertiary mt-5 ml-auto mr-auto hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
-          <a
-            href="mailto:liebenbergluca@gmail.com"
-            target={"_blank"}
-            className=""
-          >
+          <a href="mailto:liebenbergluca@gmail.com" target={"_blank"}>
             Get in touch
           </a>
         </button>
