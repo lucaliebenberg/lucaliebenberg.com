@@ -30,6 +30,7 @@ import {
   project10,
   project11,
   project12,
+  project13,
 } from "../assets";
 
 export const navLinks = [
@@ -354,30 +355,28 @@ const projects = [
     source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
     live_link: "https://www.bossboysplatters.com/",
   },
-  // {
-  //   name: "Crypto eLearning",
-  //   description:
-  //     "A Design System project for a eLearning Crypto app concept, with a modular Design System that displays the brand and product concepts",
-  //   tags: [
-  //     {
-  //       name: "ux design",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "ui design",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "figma",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project9,
-  //   source_code_link:
-  //     "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
-  //   live_link:
-  //     "https://www.behance.net/gallery/157871107/ID200-04-Design-System",
-  // },
+  {
+    name: "DeFi Landing Page",
+    description:
+      "A Web-based application that acts as avlanding page for a DeFi dashboard ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project13,
+    source_code_link: "https://github.com/lucaliebenberg/react-tailwind-defi",
+    live_link: "https://react-defi-website.netlify.app/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

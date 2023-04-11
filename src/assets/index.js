@@ -38,6 +38,7 @@ import project9 from "./project-9.png";
 import project10 from "./project-10.png";
 import project11 from "./project-11.png";
 import project12 from "./project-12.png";
+import project13 from "./project-13.png";
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   project10,
   project11,
   project12,
+  project13,
 };
