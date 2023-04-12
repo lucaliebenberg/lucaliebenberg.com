@@ -358,7 +358,7 @@ const projects = [
   {
     name: "DeFi Landing Page",
     description:
-      "A Web-based application that acts as a landing page for a DeFi dashboard, helping increase traffic to the dashboard, with the user also being able to connect their wallet.",
+      "A Web-based application landing page for a DeFi dashboard, helping increase traffic to the dashboard, with the user also being able to connect their wallet.",
     tags: [
       {
         name: "html",
