@@ -336,7 +336,7 @@ const projects = [
   {
     name: "Catering Webiste",
     description:
-      "Web-based application that allows users to browse the catering list and the relevant price list. This was for a catering company that wanted to have a digital prescene.",
+      "Web-based application that allows users to browse the catering list and the relevant price list, helping a catering company have a digital prescene.",
     tags: [
       {
         name: "html",
