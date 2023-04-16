@@ -49,7 +49,7 @@ const Footer = () => {
             <AiFillYoutube size={24} className="mr-3" />
           </a> */}
           <a
-            href="https://i.ibb.co/VgnVnB0/overseas-resume.jpg"
+            href="https://i.ibb.co/gvK8LpP/resume.jpg"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
