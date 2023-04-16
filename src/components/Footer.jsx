@@ -1,6 +1,11 @@
 import React from "react";
 
-import { AiFillYoutube, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillYoutube,
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillFileText,
+} from "react-icons/ai";
 // import { TbWriting } from "react-icons/tb";
 
 const Footer = () => {
@@ -42,6 +47,13 @@ const Footer = () => {
           >
             <AiFillYoutube size={24} className="mr-3" />
           </a> */}
+          <a
+            href="https://i.ibb.co/VgnVnB0/overseas-resume.jpg"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+          >
+            <AiFillFileText size={24} className="mr-3" />
+          </a>
           <a
             href="https://github.com/lucaliebenberg"
             target={"_blank"}
