@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiFillLinkedin,
   AiFillFileText,
+  AiFillMail,
 } from "react-icons/ai";
 // import { TbWriting } from "react-icons/tb";
 
@@ -53,6 +54,13 @@ const Footer = () => {
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillFileText size={24} className="mr-3" />
+          </a>
+          <a
+            href="mailto:liebenbergluca@gmail.com"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
+          >
+            <AiFillMail size={24} className="mr-3" />
           </a>
           <a
             href="https://github.com/lucaliebenberg"
