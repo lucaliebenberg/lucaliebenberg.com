@@ -253,7 +253,7 @@ const projects = [
   {
     name: "Fullstack NFT Minting DApp",
     description:
-      "Web-based Fullstack NFT Mintng Dapp that allows you to connect your smart contract to your React dApp project by building an NFT Minter using Metamask and Web",
+      "A Web-based Fullstack NFT Mintng Dapp that allows you the user tp connect their wallet and mint NFTs",
     tags: [
       {
         name: "solidity",
@@ -314,7 +314,7 @@ const projects = [
   {
     name: "Wedding Website",
     description:
-      "Web-based application that allows for the client to share their wedding invitation with those who were invited",
+      "A Web-based application that allows for the client to share their wedding invitation with those who were invited",
     tags: [
       {
         name: "html",
@@ -336,7 +336,7 @@ const projects = [
   {
     name: "Catering Webiste",
     description:
-      "Web-based application that allows users to browse the catering list and the relevant price list, helping a catering company have a digital prescene.",
+      "A Web-based application that allows users to browse the catering list and the relevant price list, helping a catering company have a digital prescene.",
     tags: [
       {
         name: "html",
