@@ -256,6 +256,10 @@ const projects = [
       "A Web-based Fullstack NFT Mintng Dapp that allows you the user tp connect their wallet and mint NFTs",
     tags: [
       {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
         name: "solidity",
         color: "blue-text-gradient",
       },
@@ -275,10 +279,6 @@ const projects = [
         name: "web3.js",
         color: "blue-text-gradient",
       },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
     ],
     image: project12,
     source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dapp",
@@ -291,25 +291,47 @@ const projects = [
       "A Single Page Application that was designed and developed for a fictitious SaaS company",
     tags: [
       {
-        name: "html",
-        color: "blue-text-gradient",
+        name: "react",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "react",
+        name: "framer motion",
         color: "pink-text-gradient",
       },
       {
-        name: "framer motion",
+        name: "data-aos",
         color: "pink-text-gradient",
       },
     ],
     image: project11,
     source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
     live_link: "https://onesheetsolutions.netlify.app/",
+  },
+  {
+    name: "DeFi Landing Page",
+    description:
+      "A Web-based application landing page for a DeFi dashboard, helping increase traffic to the dashboard, with the user also being able to connect their wallet.",
+    tags: [
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project13,
+    source_code_link: "https://github.com/lucaliebenberg/react-tailwind-defi",
+    live_link: "https://react-defi-website.netlify.app/",
   },
   {
     name: "Wedding Website",
@@ -354,28 +376,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
     live_link: "https://www.bossboysplatters.com/",
-  },
-  {
-    name: "DeFi Landing Page",
-    description:
-      "A Web-based application landing page for a DeFi dashboard, helping increase traffic to the dashboard, with the user also being able to connect their wallet.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project13,
-    source_code_link: "https://github.com/lucaliebenberg/react-tailwind-defi",
-    live_link: "https://react-defi-website.netlify.app/",
   },
 ];
 
