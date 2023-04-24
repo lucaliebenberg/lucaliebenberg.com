@@ -34,7 +34,7 @@ const Footer = () => {
         </p>
         <div className="flex flex-row mr-4 lg:mr-8">
           {/* <a
-            href="https://www.facebook.com"
+            href="https://www.frontendninja.com/blog"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
@@ -48,7 +48,7 @@ const Footer = () => {
             <AiFillYoutube size={24} className="mr-3" />
           </a> */}
           <a
-            href="https://i.ibb.co/tCwJXFs/resume-Apr-2023.jpg"
+            href="https://i.ibb.co/YTFgSwm/resume.jpg"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
