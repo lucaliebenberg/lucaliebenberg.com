@@ -62,7 +62,7 @@ const Footer = () => {
             <AiFillGithub size={24} className="mr-3" />
           </a>
           <a
-            href="https://www.linkedin.com/in/luca-liebenberg/"
+            href="https://i.ibb.co/dBdrdgS/resume-final.jpg"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
