@@ -41,7 +41,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you. Luca will get back to you as soon as possible.");
 
           setForm({
             name: "",
