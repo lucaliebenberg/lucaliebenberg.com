@@ -6,6 +6,7 @@ import {
   AiFillLinkedin,
   AiFillFileText,
 } from "react-icons/ai";
+import { GrFacebook } from "react-icons/gr";
 // import { TbWriting } from "react-icons/tb";
 
 const Footer = () => {
@@ -62,7 +63,7 @@ const Footer = () => {
             <AiFillGithub size={24} className="mr-3" />
           </a>
           <a
-            href="https://i.ibb.co/dBdrdgS/resume-final.jpg"
+            href="https://www.linkedin.com/in/luca-liebenberg/"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
