@@ -188,7 +188,7 @@ const experiences = [
       "Converting Figma design systems to React TypeScript components using Storybook",
       "Implementing responsive design and ensuring cross-browser compatibility",
       "Participating in code reviews and receive constructive feedback to further improve the components",
-      "Collaborating with another intern developer to build the components and Figma designs",
+      "Collaborating with another intern developer to build the components and convert Figma designs to code",
     ],
   },
 ];
