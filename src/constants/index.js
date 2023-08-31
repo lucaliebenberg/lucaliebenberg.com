@@ -21,8 +21,10 @@ import {
   starbucks,
   tesla,
   web3ninja,
+  trinity,
   shopify,
   carrent,
+  python,
   jobit,
   tripguide,
   threejs,
@@ -109,6 +111,7 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
+  { name: "Python", icon: python },
   {
     name: "github",
     icon: githubDark,
@@ -189,6 +192,18 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility",
       "Participating in code reviews and receive constructive feedback to further improve the components",
       "Collaborating with another intern developer to build the components and convert Figma designs to code",
+    ],
+  },
+  {
+    title: "Junior Frontend Developer",
+    company_name: "Trinity IoT",
+    icon: trinity,
+    iconBg: "#01A4AD",
+    date: "July 2023 - Present",
+    points: [
+      "Design a SVR portal, implementing iterative UI/UX design in Figma",
+      "Participating in code reviews and receive constructive feedback to further improve the portal design",
+      "Design and architecture the PostgreSQL database, and the Python Django backend to compliment the Frontend designs (Fullstack)",
     ],
   },
 ];

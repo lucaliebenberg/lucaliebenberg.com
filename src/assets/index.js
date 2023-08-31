@@ -24,12 +24,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.jpg";
 
 import meta from "./company/tilata.png";
 import shopify from "./company/brainnest.png";
 import starbucks from "./company/codecapsules.png";
 import tesla from "./company/polymorph.jpeg";
 import web3ninja from "./company/web3-ninja.png";
+import trinity from "./company/trinity-logo.png";
 
 import carrent from "./project-1.png";
 import jobit from "./project-5.png";
@@ -65,11 +67,13 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
   meta,
   shopify,
   starbucks,
   tesla,
   web3ninja,
+  trinity,
   carrent,
   jobit,
   tripguide,
