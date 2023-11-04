@@ -201,9 +201,10 @@ const experiences = [
     iconBg: "#01A4AD",
     date: "July 2023 - Present",
     points: [
-      "Design a SVR portal, implementing iterative UI/UX design in Figma",
+      "Design a multitenant SVR portal, implementing iterative UI/UX design in Figma",
       "Participating in code reviews and receive constructive feedback to further improve the portal design",
-      "Design and architecture the PostgreSQL database, and the Python Django backend to compliment the Frontend designs (Fullstack)",
+      "Design and architecture the PostgreSQL database, and the Python Django backend to compliment the UX/UI Designs",
+      "Working collaboratively with a data analyst to architect and design the database and backend infrastructure",
     ],
   },
 ];
