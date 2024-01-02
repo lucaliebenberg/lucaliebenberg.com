@@ -44,11 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt0-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a motivated and disciplined student, who is currently studying
-        Interaction Design & Front-End Development at the Cape Town Creative
-        Academy. I am in my third and final year, looking for internships with
-        UX/UI, Software and Blockchain companies until my graduation, hoping to
-        learn as much as I can and obtain industry work experience.
+        I am a motivated and disciplined individual, who has a strong interests
+        in Software Development, Blockchain and Business. I currently work as a
+        Junior Developer for a IoT company, where I am involved with Python (for
+        backend work) and JavaScript/TypeScript (for frontend work). <br />I
+        constantly seek new knowledge and hope to further develop my skillset,
+        both in the software and business domain.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
