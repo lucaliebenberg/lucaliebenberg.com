@@ -7,7 +7,7 @@ import {
   AiFillFileText,
 } from "react-icons/ai";
 import { GrFacebook } from "react-icons/gr";
-// import { TbWriting } from "react-icons/tb";
+import { TbWriting } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -34,13 +34,13 @@ const Footer = () => {
           2023 &copy; Luca Liebenberg
         </p>
         <div className="flex flex-row mr-4 lg:mr-8">
-          {/* <a
-            href="https://www.frontendninja.com/blog"
+          <a
+            href="https://www.luca-blogs.vercel.app/"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <TbWriting size={24} className="mr-3" />
-          </a> */}
+          </a>
           {/* <a
             href="https://www.youtube.com"
             target={"_blank"}
@@ -49,7 +49,7 @@ const Footer = () => {
             <AiFillYoutube size={24} className="mr-3" />
           </a> */}
           <a
-            href="https://i.ibb.co/JjJtZ56/L-Liebenberg-Resume.jpg"
+            href="https://i.ibb.co/cJrKX4J/Luca-Liebenberg-Resume-2024.jpg"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
