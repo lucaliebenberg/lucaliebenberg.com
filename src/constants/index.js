@@ -56,11 +56,11 @@ const services = [
     icon: backend,
   },
   {
-    title: "Frontend Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
-    title: "Blockchain Developer",
+    title: "Blockchain Enthusiast",
     icon: mobile,
   },
   {
@@ -124,10 +124,10 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
 ];
 
 const experiences = [
@@ -220,7 +220,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "A web developer who truly cares about their clients' needing a digital prescence.",
+      "A developer who truly cares about their clients having a digital prescence.",
     name: "Joshua Van Breda",
     designation: "Game Developer",
     company: "Mezmerize Studios",
@@ -369,7 +369,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/lucaliebenberg/wedding-website",
-    live_link: "https://www.sophia-and-evans.com/",
+    // live_link: "https://www.sophia-and-evans.com/",
   },
   {
     name: "Catering Webiste",
