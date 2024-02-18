@@ -349,28 +349,28 @@ const projects = [
     source_code_link: "https://github.com/lucaliebenberg/react-tailwind-defi",
     live_link: "https://react-defi-website.netlify.app/",
   },
-  {
-    name: "Wedding Website",
-    description:
-      "A Web-based application that allows for the client to share their wedding invitation with those who were invited",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sass",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/lucaliebenberg/wedding-website",
-    // live_link: "https://www.sophia-and-evans.com/",
-  },
+  // {
+  //   name: "Wedding Website",
+  //   description:
+  //     "A Web-based application that allows for the client to share their wedding invitation with those who were invited",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "sass",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/lucaliebenberg/wedding-website",
+  //   // live_link: "https://www.sophia-and-evans.com/",
+  // },
   {
     name: "Catering Webiste",
     description:
