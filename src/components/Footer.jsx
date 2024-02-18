@@ -35,7 +35,7 @@ const Footer = () => {
         </p>
         <div className="flex flex-row mr-4 lg:mr-8">
           <a
-            href="https://www.luca-blogs.vercel.app/"
+            href="https://luca-blogs.vercel.app/"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
