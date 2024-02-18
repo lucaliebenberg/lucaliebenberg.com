@@ -49,7 +49,7 @@ const Footer = () => {
             <AiFillYoutube size={24} className="mr-3" />
           </a> */}
           <a
-            href="https://i.ibb.co/cJrKX4J/Luca-Liebenberg-Resume-2024.jpg"
+            href="https://docs.google.com/document/d/1aI0zDEwBYTvrOaamK6yeBO1IU-QvE2XAIoWVyeWBHxQ/edit?usp=sharing"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
