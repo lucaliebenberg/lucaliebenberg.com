@@ -33,6 +33,7 @@ import {
   project11,
   project12,
   project13,
+  heroBlog
 } from "../assets";
 
 export const navLinks = [
@@ -195,7 +196,7 @@ const experiences = [
     ],
   },
   {
-    title: "Junior Frontend Developer",
+    title: "Junior Software Developer",
     company_name: "Trinity IoT",
     icon: trinity,
     iconBg: "#01A4AD",
@@ -203,7 +204,7 @@ const experiences = [
     points: [
       "Design a multitenant SVR portal, implementing iterative UI/UX design in Figma",
       "Participating in code reviews and receive constructive feedback to further improve the portal design",
-      "Design and architecture the PostgreSQL database, and the Python Django backend to compliment the UX/UI Designs",
+      "Design and architecture the database, making sure the backend is architectured to compliment the UX/UI Designs",
       "Working collaboratively with a data analyst to architect and design the database and backend infrastructure",
     ],
   },
@@ -234,42 +235,61 @@ const testimonials = [
     company: "Nelson Mandela University",
     image: "https://i.ibb.co/mG3F5cF/lionel-avatar.jpg",
   },
-  // {
-  //   testimonial:
-  //     "Having a designer who is able to build the interfaces they design, makes collaboration easier, and helps focus on what is possible when it comes to development.",
-  //   name: "Moses Chisale",
-  //   designation: "Animator & Photographer",
-  //   company: "Cape Town Creative Academy",
-  //   image: "https://i.ibb.co/mG3F5cF/lionel-avatar.jpg",
-  // },
 ];
 
 const projects = [
-  // {
-  //   name: "Portfolio Website",
-  //   description:
-  //     "Web-based application that allows for the client to showcase their portfolio and brand",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "javascript",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/lucaliebenberg/moses-wesbite",
-  // },
+  {
+    name: "Personal blog",
+    description:
+      "Blog application that helps me share my experiences, learnings and tech related information for others who are interested in similar content.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: heroBlog,
+    source_code_link: "https://github.com/lucaliebenberg",
+       live_link: "https://luca-blogs.vercel.app/"
+  },
+  {
+    name: "SaaS Landing Page",
+    description:
+      "A Single Page Application that was designed and developed for a fictitious SaaS company",
+    tags: [
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "data-aos",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project11,
+    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
+    live_link: "https://onesheetsolutions.netlify.app/",
+  },
   {
     name: "Fullstack NFT Minting DApp",
     description:
-      "A Web-based Fullstack NFT Mintng Dapp that allows you the user tp connect their wallet and mint NFTs",
+      "A Web-based Fullstack NFT Mintng Dapp that allows you the user tp connect their wallet and mint NFTs to their Metamask wallet",
     tags: [
       {
         name: "react",
@@ -302,96 +322,26 @@ const projects = [
       "https://goerli.etherscan.io/tx/0x8d41d174d4e5335f0a31129331254f11349d66e32b772e857ce7c0d24a22e36e",
   },
   {
-    name: "SaaS Landing Page",
+    name: "Hotel Reservation JSON API",
     description:
-      "A Single Page Application that was designed and developed for a fictitious SaaS company",
+      "A Go application, that allows users to create hotel reservations, and book rooms - with nvoices of bookings is simulated",
     tags: [
       {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer motion",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "data-aos",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project11,
-    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
-    live_link: "https://onesheetsolutions.netlify.app/",
-  },
-  {
-    name: "DeFi Landing Page",
-    description:
-      "A Web-based application landing page for a DeFi dashboard, helping increase traffic to the dashboard, with the user also being able to connect their wallet.",
-    tags: [
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer motion",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project13,
-    source_code_link: "https://github.com/lucaliebenberg/react-tailwind-defi",
-    live_link: "https://react-defi-website.netlify.app/",
-  },
-  // {
-  //   name: "Wedding Website",
-  //   description:
-  //     "A Web-based application that allows for the client to share their wedding invitation with those who were invited",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "sass",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "javascript",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/lucaliebenberg/wedding-website",
-  //   // live_link: "https://www.sophia-and-evans.com/",
-  // },
-  {
-    name: "Catering Webiste",
-    description:
-      "A Web-based application that allows users to browse the catering list and the relevant price list, helping a catering company have a digital prescene.",
-    tags: [
-      {
-        name: "html",
+        name: "go",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "API",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/lucaliebenberg/bossboys-website",
-    live_link: "https://www.bossboysplatters.com/",
+    image: carrent,
+    source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+    live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
   },
 ];
 

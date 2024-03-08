@@ -33,7 +33,7 @@ import tesla from "./company/polymorph.jpeg";
 import web3ninja from "./company/web3-ninja.png";
 import trinity from "./company/trinity-logo.png";
 
-import carrent from "./project-1.png";
+import carrent from "./project-hotel.jpeg";
 import jobit from "./project-5.png";
 import tripguide from "./project-6.png";
 import project9 from "./project-9.png";
@@ -41,6 +41,7 @@ import project10 from "./project-10.png";
 import project11 from "./project-11.png";
 import project12 from "./project-12.png";
 import project13 from "./project-13.png";
+import heroBlog from "./blog-hero.png"
 
 export {
   logo,
@@ -82,4 +83,5 @@ export {
   project11,
   project12,
   project13,
+  heroBlog
 };
