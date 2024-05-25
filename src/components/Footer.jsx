@@ -20,7 +20,7 @@ const Footer = () => {
           Let's work together
         </h1>
         <p className="mt-5 max-w-[300px] md:max-w-[410px] lg:max-w-[384px] text-white text-center justify-center text-[13px] ml-auto mr-auto">
-          If you’re looking for a kick-ass digital ninja, I'm here to help!
+          If you’re looking for a kick-ass developer, holla at me!
         </p>
         <button className="w-[134px] h-[40px] rounded-[5px] bg-white text-tertiary mt-5 ml-auto mr-auto hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
           <a href="mailto:liebenbergluca@gmail.com" target={"_blank"}>
@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="w-[90vw] border-white"></div>
       <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-white">
         <p className="text-[12px] pt-1 ml-4 lg:ml-10">
-          2023 &copy; Luca Liebenberg
+          2024 &copy; Luca Liebenberg
         </p>
         <div className="flex flex-row mr-4 lg:mr-8">
           <a
@@ -40,16 +40,9 @@ const Footer = () => {
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <TbWriting size={24} className="mr-3" />
-          </a>
-          {/* <a
-            href="https://www.youtube.com"
-            target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
-          >
-            <AiFillYoutube size={24} className="mr-3" />
-          </a> */}
+          </a>\
           <a
-            href="https://docs.google.com/document/d/1aI0zDEwBYTvrOaamK6yeBO1IU-QvE2XAIoWVyeWBHxQ/edit?usp=sharing"
+            href="https://i.ibb.co/h2H4fv9/latest-resume-LL-2024-25-May.jpg"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
