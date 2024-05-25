@@ -2,14 +2,8 @@ Personal Portfolio
 Live demo [here](https://www.lucaliebenberg.com).
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
-* [Project Status](#project-status)
-
-## General Information
-- A personal portfolio built using ReactJS, Tailwind, Framer Motion, EmailJS and Netlify
-- I made this project to showcase my personal projects and have a digital prescence.
 
 ## Technologies Used
 - "@emailjs/browser": "^3.10.0",
@@ -33,12 +27,10 @@ Live demo [here](https://www.lucaliebenberg.com).
 - "vite": "^4.1.0"
 
 ## Setup
+```markdown
 
-type `npm install`
+npm install
 
-type `npm run dev` to run the project
+npm run dev
 
-
-## Project Status
-Project is: Completed but addtional features will be added in the future.
-
+```
