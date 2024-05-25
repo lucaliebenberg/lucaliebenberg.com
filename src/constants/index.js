@@ -224,7 +224,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "A developer who truly cares about their clients having a digital prescence.",
+      "A developer who truly cares about individuals having a digital prescence.",
     name: "Joshua Van Breda",
     designation: "Game Developer",
     company: "Mezmerize Studios",
@@ -262,32 +262,6 @@ const projects = [
     image: heroBlog,
     source_code_link: "https://github.com/lucaliebenberg",
        live_link: "https://luca-blogs.vercel.app/"
-  },
-  {
-    name: "SaaS Landing Page",
-    description:
-      "A Single Page Application that was designed and developed for a fictitious SaaS company",
-    tags: [
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer motion",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "data-aos",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project11,
-    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
-    live_link: "https://onesheetsolutions.netlify.app/",
   },
   {
     name: "Random Raffle Lottery",
@@ -388,6 +362,32 @@ const projects = [
     image: toll,
     source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
     live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+  },
+  {
+    name: "SaaS Landing Page",
+    description:
+      "A Single Page Application that was designed and developed for a fictitious SaaS company",
+    tags: [
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "data-aos",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project11,
+    source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
+    live_link: "https://onesheetsolutions.netlify.app/",
   },
 ];
 
