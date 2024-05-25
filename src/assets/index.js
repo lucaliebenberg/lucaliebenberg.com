@@ -42,8 +42,14 @@ import project11 from "./project-11.png";
 import project12 from "./project-12.png";
 import project13 from "./project-13.png";
 import heroBlog from "./blog-hero.png"
+import toll from "../../src/assets/traffic-toll.jpeg"
+import stablecoin from "../../src/assets/stablecoin-bg.jpeg"
+import raffle from "../../src/assets/raffle-bg.jpeg"
 
 export {
+  raffle,
+  stablecoin,
+  toll,
   logo,
   backend,
   creator,

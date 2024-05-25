@@ -1,4 +1,6 @@
 import {
+  toll,
+  raffle,
   mobile,
   backend,
   creator,
@@ -33,7 +35,8 @@ import {
   project11,
   project12,
   project13,
-  heroBlog
+  heroBlog,
+  stablecoin
 } from "../assets";
 
 export const navLinks = [
@@ -139,9 +142,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2022 - October 2022",
     points: [
-      "Developing a web application using React.js and other related technologies",
-      "Implementing responsive design and ensuring cross-browser compatibility",
+      "Developed and structured a web app where the company would be able to see their working internal service status once connected their API endpoint, helping have company internal analytics (ReactJS, TypeScript, Git, Github)",
       "Deploying the web application with hosting",
+      "Received code reviews and implemented changes throughout an agile process",
     ],
   },
   {
@@ -151,9 +154,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "December 2022 - Jan 2023",
     points: [
-      "Designed the concept for the internal dashboard",
+      " Designed an internal dashboard for employees to view the status and details of ongoing and past projects, helping employees have universal project knowledge.",
       "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product",
-      "Contributing to the implementation of the features needed to solve the company's problem",
+      "Helped the software engineers increase their MVP process by building out wireframes in Angular, helping increase testing duration",
       "Participating in project reviews and providing constructive feedback to other team members",
     ],
   },
@@ -164,7 +167,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2023 - Feb 2023",
     points: [
-      " Identify the core concepts of Blockchain and get technical background on some of the biggest projects like HyperLedger, Factom and Ripple",
+      "Identify the core concepts of Blockchain and get technical background on some of the biggest projects like HyperLedger, Factom and Ripple",
       "Created & Deployed solidity smart contract and interacted with them on the frontend",
       "Participating in homework reviews and providing constructive feedback to other classmates throughout the program",
     ],
@@ -179,7 +182,7 @@ const experiences = [
       "Ideating and creating dashboard designs for concept design",
       "Collaborating with cross-functional team including contributors, management, and other community members to create the first MVP product",
       "Implementing responsive design and ensuring cross-browser compatibility",
-      "Participating in design reviews and receive constructive feedback to further improve the MVP",
+      "Participating in design reviews and receive constructive feedback to further improve the MVP for first release",
     ],
   },
   {
@@ -187,12 +190,12 @@ const experiences = [
     company_name: "The Web3 Ninja",
     icon: web3ninja,
     iconBg: "#E6DEDD",
-    date: "March 2023 - Present",
+    date: "March 2023 - June 2023",
     points: [
       "Converting Figma design systems to React TypeScript components using Storybook",
       "Implementing responsive design and ensuring cross-browser compatibility",
       "Participating in code reviews and receive constructive feedback to further improve the components",
-      "Collaborating with another intern developer to build the components and convert Figma designs to code",
+      " Enhanced user experience through UI/UX improvements, actively participating in code reviews and agile development process",
     ],
   },
   {
@@ -202,10 +205,10 @@ const experiences = [
     iconBg: "#01A4AD",
     date: "July 2023 - Present",
     points: [
-      "Design a multitenant SVR portal, implementing iterative UI/UX design in Figma",
-      "Participating in code reviews and receive constructive feedback to further improve the portal design",
-      "Design and architecture the database, making sure the backend is architectured to compliment the UX/UI Designs",
-      "Working collaboratively with a data analyst to architect and design the database and backend infrastructure",
+      " Work on a web portal implementing already built Django APIs to effectively display data, helping users improve their decision making on hardware devices",
+      "Design and develop a fullstack SVR portal, solving multi tenant vehicle tracking through interacting with custom Django built APIs and hardware devices firmware, enabling hardware tracking interactions for recovering vehicles",
+      "Design and architecture the database, making sure the backend is architectured to compliment the UX/UI Designs, also taking security into account",
+      " Develop and maintain frontend + backend features on our client production security portal, implementing testing and clean code using Django and NextJS - TypeScript",
     ],
   },
 ];
@@ -213,7 +216,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Having design and development knowledge, Luca bridges the gap between designers and developers with ease. A pleasure to work with.",
+      "Having design and development knowledge, Luca bridges the gap between designers and developers with ease. A pleasure to work with. Highly recommend",
     name: "Shaun Mbolompo",
     designation: "Computer Science & Business Computing Student",
     company: "University of Cape Town",
@@ -229,7 +232,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Having a designer who is able to build the interfaces they design, makes collaboration easier, and helps focus on what is possible when it comes to development.",
+      "Having a designer who is able to build the interfaces they design, makes collaboration easier, and helps when they are a software developer too",
     name: "Lionel Raseemla",
     designation: "Computer Science & Applied Maths Student",
     company: "Nelson Mandela University",
@@ -287,44 +290,57 @@ const projects = [
     live_link: "https://onesheetsolutions.netlify.app/",
   },
   {
-    name: "Fullstack NFT Minting DApp",
+    name: "Random Raffle Lottery",
     description:
-      "A Web-based Fullstack NFT Mintng Dapp that allows you the user tp connect their wallet and mint NFTs to their Metamask wallet",
+      "A decentralized raffle lottery smart contract where users enter by purchasing tickets. The total ticket fees form the prize pool, which is awarded to a randomly selected winner after a specified period. The winner is chosen automatically using Chainlink VRF for secure randomness and Chainlink Automation for time-based triggering, ensuring a fair and transparent process",
     tags: [
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
       {
         name: "solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "hardhat",
+        name: "foundry",
         color: "blue-text-gradient",
       },
       {
         name: "alchemy",
         color: "blue-text-gradient",
       },
-      {
-        name: "ethers.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "web3.js",
-        color: "blue-text-gradient",
-      },
+
     ],
-    image: project12,
-    source_code_link: "https://github.com/lucaliebenberg/fullstack-nft-dapp",
+    image: raffle,
+    source_code_link: "https://github.com/lucaliebenberg/lottery-smart-contract",
     live_link:
-      "https://goerli.etherscan.io/tx/0x8d41d174d4e5335f0a31129331254f11349d66e32b772e857ce7c0d24a22e36e",
+      "https://github.com/lucaliebenberg/lottery-smart-contract",
+  },
+  {
+    name: "Decentralized Stablecoin",
+    description:
+      "This project is a decentralized stablecoin system where users can deposit WETH and WBTC to receive tokens pegged to the USD. Using Chainlink Price Feeds, the system ensures the stablecoin maintains a $1.00 value by facilitating exchanges between ETH, BTC, and USD. The stablecoin can only be minted when sufficient collateral is provided, relying on an algorithmic mechanism for stability. The collateral supporting the stablecoin is exogenous, consisting of WETH and WBTC",
+    tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "foundry",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "alchemy",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: stablecoin,
+    source_code_link: "https://github.com/lucaliebenberg/decentralized-stablecoin",
+    live_link:
+      "https://github.com/lucaliebenberg/lottery-smart-contract",
   },
   {
     name: "Hotel Reservation JSON API",
     description:
-      "A Go application, that allows users to create hotel reservations, and book rooms - with nvoices of bookings is simulated",
+      "A Go application, that allows users to create hotel reservations, and book rooms - with invoices of bookings being simulated",
     tags: [
       {
         name: "go",
@@ -340,6 +356,36 @@ const projects = [
       },
     ],
     image: carrent,
+    source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+    live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+  },
+  {
+    name: "Traffic Toll Microservice",
+    description:
+      "A Go microservice built for calculating invoices for truck delivery companies, based on distance travelled during delivery windows ",
+    tags: [
+      {
+        name: "go",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API Gateway",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Microservice",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: toll,
     source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
     live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
   },
