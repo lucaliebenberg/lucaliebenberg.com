@@ -309,7 +309,7 @@ const projects = [
     image: stablecoin,
     source_code_link: "https://github.com/lucaliebenberg/decentralized-stablecoin",
     live_link:
-      "https://github.com/lucaliebenberg/lottery-smart-contract",
+      "https://github.com/lucaliebenberg/decentralized-stablecoin",
   },
   {
     name: "Hotel Reservation JSON API",
@@ -360,8 +360,8 @@ const projects = [
       },
     ],
     image: toll,
-    source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
-    live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+    source_code_link: "https://github.com/lucaliebenberg/traffic-toll-microservice",
+    live_link: "https://github.com/lucaliebenberg/traffic-toll-microservice",
   },
   {
     name: "SaaS Landing Page",
