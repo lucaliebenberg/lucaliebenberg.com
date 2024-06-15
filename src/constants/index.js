@@ -205,10 +205,11 @@ const experiences = [
     iconBg: "#01A4AD",
     date: "July 2023 - Present",
     points: [
-      " Work on a web portal implementing already built Django APIs to effectively display data, helping users improve their decision making on hardware devices",
+      "Work on a web portal implementing already built Django APIs to effectively display data, helping users improve their decision making on hardware devices",
       "Design and develop a fullstack SVR portal, solving multi tenant vehicle tracking through interacting with custom Django built APIs and hardware devices firmware, enabling hardware tracking interactions for recovering vehicles",
       "Design and architecture the database, making sure the backend is architectured to compliment the UX/UI Designs, also taking security into account",
-      " Develop and maintain frontend + backend features on our client production security portal, implementing testing and clean code using Django and NextJS - TypeScript",
+      "Develop and maintain frontend + backend features on our client production security portal, implementing testing and clean code using Django and NextJS - TypeScript",
+      "Build APIs & implement a multi tenancy backend architecture for the platform, taking multi tenancy authentication and authorisation into account for security"
     ],
   },
 ];
