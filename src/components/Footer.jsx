@@ -42,7 +42,7 @@ const Footer = () => {
             <TbWriting size={24} className="mr-3" />
           </a>
           <a
-            href="https://i.ibb.co/h2H4fv9/latest-resume-LL-2024-25-May.jpg"
+            href="https://i.ibb.co/C5NkLvW/fresh-cv-june-24.jpg"
             target={"_blank"}
             className="text-[#CCC] font-semibold hover:text-white hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
