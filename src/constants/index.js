@@ -27,6 +27,9 @@ import {
   threejs,
   project11,
   heroBlog,
+  raffle,
+  stablecoin,
+  carrent
 } from "../assets";
 
 export const navLinks = [
