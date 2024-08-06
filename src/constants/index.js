@@ -283,76 +283,66 @@ const projects = [
     source_code_link: "https://github.com/lucaliebenberg/baseLAND-token",
        live_link: "https://base-land-xyz.vercel.app/"
   },
-  // {
-  //   name: "Random Raffle Lottery",
-  //   description:
-  //     "A decentralized raffle lottery smart contract where users enter by purchasing tickets. The total ticket fees form the prize pool, which is awarded to a randomly selected winner after a specified period. The winner is chosen automatically using Chainlink VRF for secure randomness and Chainlink Automation for time-based triggering, ensuring a fair and transparent process",
-  //   tags: [
-  //     {
-  //       name: "solidity",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "foundry",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "alchemy",
-  //       color: "blue-text-gradient",
-  //     },
-
-  //   ],
-  //   image: raffle,
-  //   source_code_link: "https://github.com/lucaliebenberg/lottery-smart-contract",
-  //   live_link:
-  //     "https://github.com/lucaliebenberg/lottery-smart-contract",
-  // },
-  // {
-  //   name: "Decentralized Stablecoin",
-  //   description:
-  //     "This project is a decentralized stablecoin system where users can deposit WETH and WBTC to receive tokens pegged to the USD. Using Chainlink Price Feeds, the system ensures the stablecoin maintains a $1.00 value by facilitating exchanges between ETH, BTC, and USD. The stablecoin can only be minted when sufficient collateral is provided, relying on an algorithmic mechanism for stability. The collateral supporting the stablecoin is exogenous, consisting of WETH and WBTC",
-  //   tags: [
-  //     {
-  //       name: "solidity",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "foundry",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "alchemy",
-  //       color: "blue-text-gradient",
-  //     },
-
-  //   ],
-  //   image: stablecoin,
-  //   source_code_link: "https://github.com/lucaliebenberg/decentralized-stablecoin",
-  //   live_link:
-  //     "https://github.com/lucaliebenberg/decentralized-stablecoin",
-  // },
-  // {
-  //   name: "Hotel Reservation JSON API",
-  //   description:
-  //     "A Go application, that allows users to create hotel reservations, and book rooms - with invoices of bookings being simulated",
-  //   tags: [
-  //     {
-  //       name: "go",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongoDB",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "API",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
-  //   live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
-  // },
+  {
+    name: "Lottery Raffle",
+    description:
+      "A decentralized raffle lottery smart contract where users enter by purchasing tickets. The total ticket fees form the prize pool, which is awarded to a randomly selected winner after a specified period. The winner is chosen automatically using Chainlink VRF for secure randomness and Chainlink Automation for time-based triggering, ensuring a fair and transparent process",
+    tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "foundry",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: raffle,
+    source_code_link: "https://github.com/lucaliebenberg/lottery-smart-contract",
+    live_link:
+      "https://github.com/lucaliebenberg/lottery-smart-contract",
+  },
+  {
+    name: "Decentralized Stablecoin",
+    description:
+      "A decentralized stablecoin system where users can deposit WETH and WBTC to receive tokens pegged to the USD. Using Chainlink Price Feeds, the system ensures the stablecoin maintains a $1.00 value by facilitating exchanges between ETH, BTC, and USD. The stablecoin can only be minted when sufficient collateral is provided, relying on an algorithmic mechanism for stability. The collateral supporting the stablecoin is exogenous, consisting of WETH and WBTC",
+    tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "foundry",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: stablecoin,
+    source_code_link: "https://github.com/lucaliebenberg/decentralized-stablecoin",
+    live_link:
+      "https://github.com/lucaliebenberg/decentralized-stablecoin",
+  },
+  {
+    name: "Hotel Reservation JSON API",
+    description:
+      "An application, that allows users to create hotel reservations, and book rooms - with invoices of bookings being simulated",
+    tags: [
+      {
+        name: "go",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+    live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+  },
   // {
   //   name: "Traffic Toll Microservice",
   //   description:
