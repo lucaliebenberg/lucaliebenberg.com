@@ -1,12 +1,10 @@
 import React from "react";
 
 import {
-  AiFillYoutube,
   AiFillGithub,
   AiFillLinkedin,
   AiFillFileText,
 } from "react-icons/ai";
-import { GrFacebook } from "react-icons/gr";
 import { TbWriting } from "react-icons/tb";
 
 const Footer = () => {
