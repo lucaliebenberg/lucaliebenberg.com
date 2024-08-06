@@ -1,11 +1,9 @@
 import {
   toll,
-  raffle,
   mobile,
   backend,
   creator,
   web,
-  webIcon,
   javascript,
   typescript,
   html,
@@ -25,18 +23,10 @@ import {
   web3ninja,
   trinity,
   shopify,
-  carrent,
   python,
-  jobit,
-  tripguide,
   threejs,
-  project9,
-  project10,
   project11,
-  project12,
-  project13,
   heroBlog,
-  stablecoin
 } from "../assets";
 
 export const navLinks = [
@@ -124,10 +114,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "docker",
+    icon: docker,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -156,7 +146,7 @@ const experiences = [
     points: [
       " Designed an internal dashboard for employees to view the status and details of ongoing and past projects, helping employees have universal project knowledge.",
       "Collaborating with a cross-functional team including designers, product managers, and other developers to create the product",
-      "Helped the software engineers increase their MVP process by building out wireframes in Angular, helping increase testing duration",
+      "Helped the software engineers increase their MVP process by building out wireframes in Angular, helping increase the testing duration",
       "Participating in project reviews and providing constructive feedback to other team members",
     ],
   },
@@ -192,24 +182,27 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2023 - June 2023",
     points: [
-      "Converting Figma design systems to React TypeScript components using Storybook",
+      "Converting Figma designs to ReactJS TypeScript components, ensuring responsive design, with a modular  approach",
       "Implementing responsive design and ensuring cross-browser compatibility",
-      "Participating in code reviews and receive constructive feedback to further improve the components",
-      " Enhanced user experience through UI/UX improvements, actively participating in code reviews and agile development process",
+      "Test UI components using Storybook, ensuring cross browser compatibility and responsive design",
+      "Enhanced user experience through UI/UX improvements, actively participating in code reviews and agile development process",
+      "Worked collaboratively with another frontend developer, assisting them with technical impediments and pull request reviews",
     ],
   },
   {
-    title: "Junior Software Developer",
+    title: "Junior Frontend Developer",
     company_name: "Trinity IoT",
     icon: trinity,
     iconBg: "#01A4AD",
     date: "July 2023 - Present",
     points: [
-      "Work on a web portal implementing already built Django APIs to effectively display data, helping users improve their decision making on hardware devices",
-      "Design and develop a fullstack SVR portal, solving multi tenant vehicle tracking through interacting with custom Django built APIs and hardware devices firmware, enabling hardware tracking interactions for recovering vehicles",
-      "Design and architecture the database, making sure the backend is architectured to compliment the UX/UI Designs, also taking security into account",
-      "Develop and maintain frontend + backend features on our client production security portal, implementing testing and clean code using Django and NextJS - TypeScript",
-      "Build APIs & implement a multi tenancy backend architecture for the platform, taking multi tenancy authentication and authorisation into account for security"
+      "Maintain and build new frontend features, implementing component driven design for modularity and consistency",
+      "Maintain and build new backend features, conducting tests through system management commands to validate and verify program outputs",
+      "Refactor and migrate existing React JavaScript components to TypeScript, improving code quality and type system",
+      "Build and test Django APIs, documenting the API, taking authentication and authorisation into account",
+      "Implement end to end UI integration testing with Cypress testing tool, increasing test code coverage for the entire to +80%",
+      "Develop APIs for interface services, implementing unit and integration tests to a code coverage of +75%",
+      "Implement Django built Graphql APIs, consumed on the TypeScript frontend, implementing mutations and queries"
     ],
   },
 ];
@@ -243,128 +236,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Personal blog",
-    description:
-      "Blog application that helps me share my experiences, learnings and tech related information for others who are interested in similar content.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: heroBlog,
-    source_code_link: "https://github.com/lucaliebenberg",
-       live_link: "https://luca-blogs.vercel.app/"
-  },
-  {
-    name: "Random Raffle Lottery",
-    description:
-      "A decentralized raffle lottery smart contract where users enter by purchasing tickets. The total ticket fees form the prize pool, which is awarded to a randomly selected winner after a specified period. The winner is chosen automatically using Chainlink VRF for secure randomness and Chainlink Automation for time-based triggering, ensuring a fair and transparent process",
-    tags: [
-      {
-        name: "solidity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "foundry",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "alchemy",
-        color: "blue-text-gradient",
-      },
-
-    ],
-    image: raffle,
-    source_code_link: "https://github.com/lucaliebenberg/lottery-smart-contract",
-    live_link:
-      "https://github.com/lucaliebenberg/lottery-smart-contract",
-  },
-  {
-    name: "Decentralized Stablecoin",
-    description:
-      "This project is a decentralized stablecoin system where users can deposit WETH and WBTC to receive tokens pegged to the USD. Using Chainlink Price Feeds, the system ensures the stablecoin maintains a $1.00 value by facilitating exchanges between ETH, BTC, and USD. The stablecoin can only be minted when sufficient collateral is provided, relying on an algorithmic mechanism for stability. The collateral supporting the stablecoin is exogenous, consisting of WETH and WBTC",
-    tags: [
-      {
-        name: "solidity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "foundry",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "alchemy",
-        color: "blue-text-gradient",
-      },
-
-    ],
-    image: stablecoin,
-    source_code_link: "https://github.com/lucaliebenberg/decentralized-stablecoin",
-    live_link:
-      "https://github.com/lucaliebenberg/decentralized-stablecoin",
-  },
-  {
-    name: "Hotel Reservation JSON API",
-    description:
-      "A Go application, that allows users to create hotel reservations, and book rooms - with invoices of bookings being simulated",
-    tags: [
-      {
-        name: "go",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
-    live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
-  },
-  {
-    name: "Traffic Toll Microservice",
-    description:
-      "A Go microservice built for calculating invoices for truck delivery companies, based on distance travelled during delivery windows ",
-    tags: [
-      {
-        name: "go",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "API Gateway",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Microservice",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: toll,
-    source_code_link: "https://github.com/lucaliebenberg/traffic-toll-microservice",
-    live_link: "https://github.com/lucaliebenberg/traffic-toll-microservice",
-  },
-  {
     name: "SaaS Landing Page",
     description:
       "A Single Page Application that was designed and developed for a fictitious SaaS company",
@@ -390,6 +261,159 @@ const projects = [
     source_code_link: "https://github.com/lucaliebenberg/SaaS-SPA",
     live_link: "https://onesheetsolutions.netlify.app/",
   },
+  {
+    name: "basedLAND",
+    description:
+      "This platform allows users to participate in the token sale, stake their tokens, and receive rewards, thereby getting value from their investments.",
+    tags: [
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: heroBlog,
+    source_code_link: "https://github.com/lucaliebenberg/baseLAND-token",
+       live_link: "https://base-land-xyz.vercel.app/"
+  },
+  // {
+  //   name: "Random Raffle Lottery",
+  //   description:
+  //     "A decentralized raffle lottery smart contract where users enter by purchasing tickets. The total ticket fees form the prize pool, which is awarded to a randomly selected winner after a specified period. The winner is chosen automatically using Chainlink VRF for secure randomness and Chainlink Automation for time-based triggering, ensuring a fair and transparent process",
+  //   tags: [
+  //     {
+  //       name: "solidity",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "foundry",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "alchemy",
+  //       color: "blue-text-gradient",
+  //     },
+
+  //   ],
+  //   image: raffle,
+  //   source_code_link: "https://github.com/lucaliebenberg/lottery-smart-contract",
+  //   live_link:
+  //     "https://github.com/lucaliebenberg/lottery-smart-contract",
+  // },
+  // {
+  //   name: "Decentralized Stablecoin",
+  //   description:
+  //     "This project is a decentralized stablecoin system where users can deposit WETH and WBTC to receive tokens pegged to the USD. Using Chainlink Price Feeds, the system ensures the stablecoin maintains a $1.00 value by facilitating exchanges between ETH, BTC, and USD. The stablecoin can only be minted when sufficient collateral is provided, relying on an algorithmic mechanism for stability. The collateral supporting the stablecoin is exogenous, consisting of WETH and WBTC",
+  //   tags: [
+  //     {
+  //       name: "solidity",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "foundry",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "alchemy",
+  //       color: "blue-text-gradient",
+  //     },
+
+  //   ],
+  //   image: stablecoin,
+  //   source_code_link: "https://github.com/lucaliebenberg/decentralized-stablecoin",
+  //   live_link:
+  //     "https://github.com/lucaliebenberg/decentralized-stablecoin",
+  // },
+  // {
+  //   name: "Hotel Reservation JSON API",
+  //   description:
+  //     "A Go application, that allows users to create hotel reservations, and book rooms - with invoices of bookings being simulated",
+  //   tags: [
+  //     {
+  //       name: "go",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "API",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+  //   live_link: "https://github.com/lucaliebenberg/go-hotel-reservation-json-API",
+  // },
+  // {
+  //   name: "Traffic Toll Microservice",
+  //   description:
+  //     "A Go microservice built for calculating invoices for truck delivery companies, based on distance travelled during delivery windows ",
+  //   tags: [
+  //     {
+  //       name: "go",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "API",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "API Gateway",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Microservice",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: toll,
+  //   source_code_link: "https://github.com/lucaliebenberg/traffic-toll-microservice",
+  //   live_link: "https://github.com/lucaliebenberg/traffic-toll-microservice",
+  // },
+  {
+    name: "Post It",
+    description:
+      "A community project aimed at helping those who hand out job slips at traffic robots in South Africa, by providing a self service platform to share their slips",
+    tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nginx",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: toll,
+    source_code_link: "https://github.com/lucaliebenberg/post-it",
+    live_link: "https://github.com/lucaliebenberg/",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

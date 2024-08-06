@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt0-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a disciplined and lifelong learning individual, who has strong interests in Software Development, UX, Blockchain and Business. I work as a Junior Developer for an IoT company, where I am involved with fullstack development using languages such as Python and JavaScript/TypeScript - whilst currently learning Go, Foundry & Smart Contracts (+ Security and Auditing) 
+        I am a disciplined and lifelong learning individual, who has strong interests in Software Development, UX, DSA and Business. I work as a Frontend Developer for an IoT company, where I am involved with languages such as Python and JavaScript/TypeScript - whilst currently learning API testing, Backend Architecture and Frontend System Design.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

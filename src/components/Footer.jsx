@@ -17,11 +17,8 @@ const Footer = () => {
           LIKE WHAT YOU SEE?
         </p>
         <h1 className="text-white font-semibold text-[38px] text-center">
-          Let's work together
+          Let's connect
         </h1>
-        <p className="mt-5 max-w-[300px] md:max-w-[410px] lg:max-w-[384px] text-white text-center justify-center text-[13px] ml-auto mr-auto">
-          If you’re looking for a kick-ass developer, holla at me!
-        </p>
         <button className="w-[134px] h-[40px] rounded-[5px] bg-white text-tertiary mt-5 ml-auto mr-auto hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
           <a href="mailto:liebenbergluca@gmail.com" target={"_blank"}>
             Get in touch
